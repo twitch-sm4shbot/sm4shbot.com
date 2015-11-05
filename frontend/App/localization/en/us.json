@@ -1,0 +1,83 @@
+{
+  "landing": {
+    "title": "Sm4shbot"
+  , "description": "A Twitch client for Smash 4 streamers."
+  , "gettingStarted": {
+      "title": "Getting Started"
+    , "descriptionBefore": "Simply add"
+    , "descriptionMiddle": "as a mod to your stream. Then"
+    , "signin": "sign in"
+    , "descriptionAfter": "with your twitch account to access your dashboard."
+    , "shareBefore": "Once you're setup, share"
+    , "shareLink": "http://sm4shbot.com/your_twitch_username"
+    , "shareAfter": "with your viewers and admins. Admins can manage the bot on their own dashboard, and viewers can see the state of the list."
+    , "shareNote": "Note: Viewers can only enter the list through the chat to prevent spamming."
+    , "docsBefore": "Don't forget to checkout"
+    , "docsLink": "the documentation"
+    , "docsAfter": "for more information."
+    }
+  , "contact": {
+      "title": "Contact Us"
+    }
+  , "liveChannels": {
+      "title": "Live Channels"
+    , "description": "Channels using Sm4shbot right now!"
+    }
+  , "record": "Record"
+  , "currentMatch": "Current Match"
+  }
+, "dashboard": {
+    "title": "Sm4shbot Dashboard"
+  , "loading": "Loading..."
+  , "on": "on"
+  , "activate": "Activate"
+  , "deactivate": "Deactivate"
+  , "currentMatch": {
+      "title": "Current Match"
+    , "challenger": "Challenger"
+    , "username": "Twitch Username"
+    , "subscriber": "Subscriber!"
+    , "nnid": "NNID"
+    , "ingameName": "In-Game Name"
+    , "record": "Record"
+    , "firstTo": "First To"
+    , "time": "Elapsed Time"
+    , "waiting": "Waiting for a challenger..."
+    , "win": "Game Win"
+    , "loss": "Game Loss"
+    , "forfeit": "Match Forfeit"
+    }
+  , "onDeck": {
+      "title": "On Deck"
+    , "username": "Twitch"
+    , "nnid": "NNID"
+    , "ingameName": "In-Game Name"
+    , "empty": "Challenger list is currently empty."
+    , "start": "Start Match"
+    }
+  , "addChallenger": {
+      "title": "Add Challenger"
+    , "username": "Twitch Username"
+    , "nnid": "NNID"
+    , "ingameName": "In-Game Name"
+    }
+  , "settings": {
+      "title": "Settings"
+    , "firstToViewer": "First To (Viewer)"
+    , "firstToSub": "First To (Sub)"
+    , "limit": "List Limit"
+    }
+  , "challengerList": {
+      "title": "Challenger List"
+    , "username": "Twitch Username"
+    , "nnid": "NNID"
+    , "ingameName": "In-Game Name"
+    , "empty": "Challenger list is currently empty."
+    , "open": "Open"
+    , "openSubs": "Open (Subs Only)"
+    , "close": "Close"
+    , "everyone": "Open To Everyone"
+    , "subs": "Open Only To Subs"
+    }
+  }
+}
