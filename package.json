@@ -1,0 +1,58 @@
+{
+  "name": "sm4shbot.com",
+  "version": "0.1.0",
+  "description": "The website for sm4shbot.",
+  "main": "./backend/server.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "connect-redis": "^3.0.1",
+    "cookie-parser": "^1.4.0",
+    "cookie-session": "^1.2.0",
+    "debug": "^2.2.0",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "jade": "^1.11.0",
+    "moment": "^2.10.6",
+    "passport": "^0.3.0",
+    "passport-twitch": "^1.0.2",
+    "react": "^0.14.2",
+    "react-addons-create-fragment": "^0.14.2",
+    "react-addons-pure-render-mixin": "^0.14.2",
+    "react-addons-transition-group": "^0.14.2",
+    "react-addons-update": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-tap-event-plugin": "^0.2.1",
+    "socket.io": "^1.3.7",
+    "socket.io-client": "^1.3.7",
+    "socket.io-express-session": "^0.1.3"
+  },
+  "devDependencies": {
+    "file-loader": "^0.8.4",
+    "jade-loader": "^0.7.1",
+    "json-loader": "^0.5.3",
+    "jsx-loader": "^0.13.2",
+    "node-sass": "^3.4.1",
+    "nodemon": "^1.8.1",
+    "react-tools": "^0.13.3",
+    "tap": "^2.2.0",
+    "uglify-loader": "^1.2.0",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.2"
+  },
+  "scripts": {
+    "build": "./scripts/build",
+    "start": "./scripts/start",
+    "test": "echo No tests yet.",
+    "watch": "./scripts/watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twitch-sm4shbot/twitch-sm4shbot"
+  },
+  "author": "Alexander Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twitch-sm4shbot/sm4shbot.com/issues"
+  },
+  "homepage": "https://github.com/twitch-sm4shbot/sm4shbot.com"
+}

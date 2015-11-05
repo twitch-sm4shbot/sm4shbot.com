@@ -1,0 +1,10 @@
+#!/bin/bash
+
+printf "\nRunning server:\n\n"
+node ./backend/server.js &
+PID=$!
+
+printf "\nRunning tests:\n\n"
+npm test
+
+kill $PID

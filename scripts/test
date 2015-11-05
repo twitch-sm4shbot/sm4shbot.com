@@ -1,0 +1,9 @@
+#!/bin/bash
+
+printf "Testing backend with mocha:\n\n"
+mocha ./backend/tests
+
+printf "\nTesting frontend with jest:\n\n"
+jest --verbose
+
+printf "Finished testing."

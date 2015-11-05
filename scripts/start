@@ -1,0 +1,4 @@
+#!/bin/bash
+
+printf "Starting survey-randomizer."
+node backend/server.js
