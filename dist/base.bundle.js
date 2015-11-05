@@ -1720,6 +1720,18 @@
 	      React.createElement("section", {className: "container flow-text"}, 
 	        React.createElement("section", null, 
 	          React.createElement("h1", null, strings.title), 
+	          React.createElement("img", {
+	            alt: "Build Status", 
+	            src: "https://api.travis-ci.org/twitch-sm4shbot/sm4shbot.com.svg"}
+	          ), " ", 
+	          React.createElement("img", {
+	            alt: "npm version", 
+	            src: "https://badge.fury.io/js/sm4shbot.com.svg"}
+	          ), " ", 
+	          React.createElement("img", {
+	            alt: "Dependencies", 
+	            src: "https://david-dm.org/twitch-sm4shbot/sm4shbot.com.svg"}
+	          ), 
 	          React.createElement("p", null, strings.description)
 	        ), 
 	        React.createElement("section", null, 
@@ -1781,6 +1793,18 @@
 	                href: "https://github.com/twitch-sm4shbot/support", 
 	                target: "_blank"
 	              }, "twitch-sm4shbot/support")
+	            )
+	          )
+	        ), 
+	        React.createElement("section", null, 
+	          React.createElement("h4", null, strings.donate.title), 
+	          React.createElement("p", null, strings.donate.description), 
+	          React.createElement("p", null, 
+	            React.createElement("form", {action: "https://www.paypal.com/cgi-bin/webscr", method: "post", target: "_top"}, 
+	              React.createElement("input", {name: "cmd", type: "hidden", value: "_s-xclick"}), 
+	              React.createElement("input", {name: "encrypted", type: "hidden", value: "-----BEGIN PKCS7-----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-----END PKCS7-----"}), 
+	              React.createElement("input", {alt: "PayPal - The safer, easier way to pay online!", border: "0", name: "submit", src: "https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif", type: "image"}), 
+	              React.createElement("img", {alt: "", border: "0", height: "1", src: "https://www.paypalobjects.com/en_US/i/scr/pixel.gif", width: "1"})
 	            )
 	          )
 	        ), 
@@ -3197,6 +3221,10 @@
 			},
 			"contact": {
 				"title": "Contact Us"
+			},
+			"donate": {
+				"title": "Donate",
+				"description": "If you enjoy Sm4shbot, please consider donating!"
 			},
 			"liveChannels": {
 				"title": "Live Channels",

@@ -19,6 +19,10 @@
   , "contact": {
       "title": "Contact Us"
     }
+  , "donate": {
+      "title": "Donate"
+    , "description": "If you enjoy Sm4shbot, please consider donating!"
+    }
   , "liveChannels": {
       "title": "Live Channels"
     , "description": "Channels using Sm4shbot right now!"

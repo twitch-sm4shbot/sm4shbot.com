@@ -1,6 +1,6 @@
 {
   "name": "sm4shbot.com",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The website for sm4shbot.",
   "main": "./backend/server.js",
   "dependencies": {
