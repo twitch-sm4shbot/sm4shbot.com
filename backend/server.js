@@ -87,6 +87,7 @@ const SOCKET_EVENTS = [
 const PATH_FRONTEND = path.join(__dirname, '..', 'frontend')
 const PATH_DIST = path.join(__dirname, '..', 'dist')
 const PATH_BASE_JS = path.join(PATH_DIST, 'base.bundle.js')
+const PATH_GA_JS = path.join(PATH_DIST, 'ga.js')
 
 var channels = []
 
@@ -152,9 +153,30 @@ app.get(
   }
 )
 
-app.get('*', function serveWildcard(request, response) {
+app.get('/ga.js', function serveGa(request, response) {
+  response.sendFile(PATH_GA_JS)
+})
+
+app.get('/', function serveIndex(request, response) {
   response.render('base')
   log.express(`Served /* -> base.jade`)
+})
+
+app.get('*', function serveWildcard(request, response) {
+  var session
+  var passport
+
+  if (
+     (session = request.session)
+  && (passport = session.passport)
+  && (passport.user)
+  ) {
+    response.render('base')
+    log.express(`Served /* -> base.jade`)
+    return
+  }
+
+  response.redirect('/login')
 })
 
 io.use(ioSession(session, {autoSave: true}))
