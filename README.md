@@ -19,7 +19,7 @@ bug report, here is how you can reach us:
 ## Contributing
 
 Sm4shbot is an open source project! If you know how to code, feel free to make a
-PR or create an issue for an ideas/code bugs.
+PR or create an issue for any ideas/code bugs.
 
 ## License
 
